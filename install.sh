@@ -10,3 +10,4 @@ symlink() {
 }
 
 symlink "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
+symlink "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
